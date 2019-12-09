@@ -1,0 +1,59 @@
+{
+    "id": "lux-light",
+    "name": "Lux",
+    "light": true,
+    "defaults":
+    {
+        "accent": "Black",
+        "css":
+        [
+            "syntax/prism-default.css",
+            "body.css",
+            "overrides.css",
+            "components.css"
+        ]
+    },
+    "accents":
+    {
+        "Festive":
+        [
+            "lux-light/festive.css",
+            "snow.css"
+        ],
+        
+        "Blue":
+        [
+            "lux-light/blue.css"
+        ],
+
+        "Orange":
+        [
+            "lux-light/orange.css"
+        ],
+
+        "Black":
+        [
+            "lux-light/black.css"
+        ],
+
+        "Red":
+        [
+            "lux-light/red.css"
+        ],
+
+        "Purple":
+        [
+            "lux-light/purple.css"
+        ],
+
+        "Pony Pink":
+        [
+            "lux-light/pink.css"
+        ],
+
+        "Green":
+        [
+            "lux-light/green.css"
+        ]
+    }
+}

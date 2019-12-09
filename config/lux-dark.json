@@ -1,0 +1,59 @@
+{
+    "id": "lux-dark",
+    "name": "Lux Dark",
+    "light": false,
+    "defaults":
+    {
+        "accent": "Blue",
+        "css":
+        [
+            "syntax/prism-night.css",
+            "body-dark.css",
+            "overrides.css",
+            "components.css"
+        ]
+    },
+    "accents":
+    {
+        "Festive":
+        [
+            "lux-dark/festive.css",
+            "snow.css"
+        ],
+        
+        "Blue":
+        [
+            "lux-dark/blue.css"
+        ],
+
+        "Orange":
+        [
+            "lux-dark/orange.css"
+        ],
+
+        "Black":
+        [
+            "lux-dark/black.css"
+        ],
+
+        "Red":
+        [
+            "lux-dark/red.css"
+        ],
+
+        "Purple":
+        [
+            "lux-dark/purple.css"
+        ],
+
+        "Pony Pink":
+        [
+            "lux-dark/pink.css"
+        ],
+
+        "Green":
+        [
+            "lux-dark/green.css"
+        ]
+    }
+}
