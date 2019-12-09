@@ -1,0 +1,26 @@
+{
+  "name": "easywiki-themes",
+  "version": "0.0.1",
+  "description": "All special themes and accent colors for EasyWiki.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasyWiki/EasyWiki-Themes.git"
+  },
+  "author": "EasyWiki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EasyWiki/EasyWiki-Themes/issues"
+  },
+  "homepage": "https://github.com/EasyWiki/EasyWiki-Themes#readme",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "bulma-extensions": "^6.2.7",
+    "bulma-fluent": "^0.3.18",
+    "bulmaswatch": "^0.7.5",
+    "node-sass": "^4.13.0"
+  }
+}
