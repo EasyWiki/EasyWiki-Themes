@@ -15,6 +15,11 @@
     },
     "accents":
     {
+		"Default":
+        [
+            "lux-dark/default.css"
+        ],
+        
         "Festive":
         [
             "lux-dark/festive.css",
