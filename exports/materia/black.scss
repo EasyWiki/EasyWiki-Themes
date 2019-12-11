@@ -14,19 +14,16 @@ $blue: #3498db;
 $purple: #8e44ad;
 $red: #e74c3c;
 $white-ter: #ecf0f1;
-$primary: #f0f !default;
+$primary: #000 !default;
 $yellow-invert: #fff;
 
 @import "../../node_modules/bulmaswatch/materia/variables";
 
 $navbar-background-color: $primary;
-$navbar-item-hover-background-color: transparent;
-$navbar-item-hover-color: $primary;
 
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-extensions/src/sass/index.sass";
 @import "../../node_modules/bulmaswatch/materia/overrides";
-@import "../../private/footer.scss";
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: none !important;
@@ -34,10 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-    background-image: url("https://www.thehoothoots.com/wp-content/uploads/2015/01/Rainbow-background-website-hoot-11.jpg") !important;
-}
-
-.navbar .is-active
-{
-    background-color: transparent;
+    background-image: none !important;
+    background-color: $primary !important;
 }

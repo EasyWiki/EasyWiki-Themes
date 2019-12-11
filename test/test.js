@@ -22,7 +22,7 @@ async function CopyInto(srcFolder, destFolder)
 
         if(fs.statSync(absPath).isDirectory())
         {
-            await this.CopyInto(absPath, path.join(destFolder,file.toLowerCase()));
+            await CopyInto(absPath, path.join(destFolder,file.toLowerCase()));
         }
         else
         {

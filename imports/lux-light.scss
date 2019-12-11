@@ -16,7 +16,7 @@ $red: #e74c3c;
 $white-ter: #ecf0f1;
 $yellow-invert: #fff;
 
-@import "../../node_modules/bulmaswatch/lux/variables";
+@import "../node_modules/bulmaswatch/lux/variables";
 
 $link: $primary;
 $link-hover: darken($link, 10);
@@ -26,9 +26,9 @@ $link-focus-border: $grey-light;
 
 $navbar-background-color: $primary;
 
-@import "../../node_modules/bulma/bulma.sass";
-@import "../../node_modules/bulma-extensions/src/sass/index.sass";
-@import "../../node_modules/bulmaswatch/lux/overrides";
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma-extensions/src/sass/index.sass";
+@import "../node_modules/bulmaswatch/lux/overrides";
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: none !important;

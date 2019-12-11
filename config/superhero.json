@@ -4,7 +4,7 @@
     "light": false,
     "defaults":
     {
-        "accent": "Blue",
+        "accent": "Default",
         "css":
         [
             "syntax/prism-night.css",
@@ -54,6 +54,11 @@
         "Green":
         [
             "superhero/green.css"
+        ],
+
+        "Default":
+        [
+            "superhero/default.css"
         ]
     }  
 }

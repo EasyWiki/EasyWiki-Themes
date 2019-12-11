@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "All special themes and accent colors for EasyWiki.",
   "scripts": {
-    "build": "node-sass -r -x exports -o css", 
-    "watch": "node-sass --watch -r -x exports -o css", 
+    "build": "node-sass -r -x exports -o css",
+    "watch": "node-sass --watch -r -x exports -o css",
     "test": "node test/test.js"
   },
   "repository": {

@@ -17,7 +17,7 @@
     {
         "Fluent":
         [
-            "fluent/fluent.css"
+            "fluent/default.css"
         ]
     }
 }

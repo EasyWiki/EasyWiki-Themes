@@ -2,7 +2,10 @@
 
 $primary: #f0f !default;
 
-@import "../../imports/lux-dark.scss";
+$navbar-item-hover-background-color: transparent;
+$navbar-item-hover-color: $primary;
+
+@import "../../imports/materia.scss";
 
 .navbar {
     background-image: url("https://www.thehoothoots.com/wp-content/uploads/2015/01/Rainbow-background-website-hoot-11.jpg") !important;

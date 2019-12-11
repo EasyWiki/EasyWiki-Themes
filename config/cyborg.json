@@ -17,7 +17,7 @@
     {
         "Default":
         [
-            "cyborg/cyborg.css"
+            "cyborg/default.css"
         ]
     }
 }

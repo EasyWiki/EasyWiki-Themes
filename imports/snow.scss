@@ -12,11 +12,11 @@
  */
 
 /* main element */
-nav {
+.navbar {
     position: relative; overflow: hidden;
 }
 /* pseudo elements: positioning and setup */
-nav:before, nav:after {
+.navbar:before, .navbar:after {
     content: "";
     position: absolute; left: -50%; top: -50%; right: -50%; bottom: -50%;
     z-index: 1;
@@ -45,18 +45,18 @@ nav:before, nav:after {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-nav:after {
+.navbar:after {
     opacity: 1;
     -webkit-animation-name: weather2;
     animation-name: weather2;
 }
 /* snow (slow, snow.png) */
-nav:before, nav:after {
+.navbar:before, .navbar:after {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAEACAYAAAADRnAGAAABKklEQVR42u3cQQ7CMAwEwJj//zk9VULqDSonjmc+QNNubScgxihkzjlHV/fi3QQAAACbHjtIO0gJEMH/riWyPjAiYpfFp17L7gkAUHwAQOsCADDk4SnkLN5NAAAtb6XIXPzqX4lIAAAAxSdKZ4ldZ3UJAM6ougCgLdqOSgBIq3olAQDor5VaoeHCkAEA0Gjyc13GcQkAAAAAANjKUQelWYuJ3Rd/xN9v/fI0nfsDVKz0vrKWAP0bAAwyBhkJAAC0ZwOaBAAAmLIAOKZzOKSQADME3m81A0DxMzBJAABgnjBRSgCAolllgVF98Uf80ZKIG3yQKHfc9lUCAAAAAB6cMcDrr8On4nu47NB1fmlbEFViMDBBo/fIN7wSoKIC6Eg60uInqR2Dygu87gIbXdZS4cGX7QAAAABJRU5ErkJggg==);
     -webkit-animation-duration: 6s;
     animation-duration: 6s;
 }
-nav:after {
+.navbar:after {
     -webkit-animation-duration: 4.5s;
     animation-duration: 4.5s;
 }
