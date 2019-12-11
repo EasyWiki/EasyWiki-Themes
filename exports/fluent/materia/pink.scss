@@ -20,6 +20,8 @@ $yellow-invert: #fff;
 @import "../../node_modules/bulmaswatch/materia/variables";
 
 $navbar-background-color: $primary;
+$navbar-item-hover-background-color: transparent;
+$navbar-item-hover-color: $primary;
 
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-extensions/src/sass/index.sass";
@@ -33,4 +35,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     background-image: url("https://www.thehoothoots.com/wp-content/uploads/2015/01/Rainbow-background-website-hoot-11.jpg") !important;
+}
+
+.navbar .is-active
+{
+    background-color: transparent;
 }

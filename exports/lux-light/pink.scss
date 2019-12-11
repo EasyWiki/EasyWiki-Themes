@@ -1,9 +1,15 @@
 @charset "utf-8";
 
-
 $primary: #f0f !default;
+$navbar-item-hover-color: $link;
+
 @import "../../imports/lux-light.scss";
 
 .navbar {
     background-image: url("https://www.thehoothoots.com/wp-content/uploads/2015/01/Rainbow-background-website-hoot-11.jpg") !important;
+}
+
+.navbar .is-active
+{
+    background-color: transparent;
 }

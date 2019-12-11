@@ -20,6 +20,9 @@ $yellow-invert: #fff;
 @import "../../node_modules/bulmaswatch/materia/variables";
 
 $navbar-background-color: $primary;
+$navbar-item-color: #fff;
+$navbar-item-hover-color: $primary; 
+$navbar-item-hover-background-color: transparent; 
 
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/bulma-extensions/src/sass/index.sass";
@@ -33,4 +36,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar {
     background-image: url("https://previews.123rf.com/images/zara94/zara941711/zara94171100031/90743298-realistic-fir-branches-on-a-red-background-christmas-banner-with-snowflakes.jpg") !important;
+}
+
+.navbar .is-active
+{
+    background-color: transparent;
 }

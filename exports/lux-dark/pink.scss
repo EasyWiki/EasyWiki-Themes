@@ -93,7 +93,7 @@ $navbar-item-active-color: $link;
 $navbar-dropdown-arrow: #fff;
 $navbar-divider-background-color: rgba(0, 0, 0, 0.2);
 $navbar-dropdown-border-top: 1px solid $navbar-divider-background-color;
-$navbar-dropdown-background-color: $primary;
+$navbar-dropdown-background-color: $transparent;
 $navbar-dropdown-item-hover-color: $grey-lighter;
 $navbar-dropdown-item-hover-background-color: transparent;
 $navbar-dropdown-item-active-background-color: transparent;
@@ -132,4 +132,9 @@ span.token.keyword {
 
 .navbar {
     background-image: url("https://www.thehoothoots.com/wp-content/uploads/2015/01/Rainbow-background-website-hoot-11.jpg") !important;
+}
+
+.navbar .is-active
+{
+    background-color: transparent;
 }
