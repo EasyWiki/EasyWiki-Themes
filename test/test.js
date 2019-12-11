@@ -1,23 +1,32 @@
-const express = require("express");
-const app = express();
+const testServerPath = "../easywiki-test";
+const themes = "config";
+const css = "css";
 
-let style = "lux-light";
-let accent = "default";
+const fs = require("fs");
+const path = require("path");
 
-app.all("/",function(req,res)
+CopyInto(themes, path.join(testServerPath, "themes"));
+CopyInto(css, path.join(testServerPath, "public", "css"));
+
+async function CopyInto(srcFolder, destFolder)
 {
-    res.sendFile("test.html");
-});
+    if(!fs.existsSync(srcFolder)) return;
+    if(!fs.existsSync(destFolder)) fs.mkdirSync(destFolder);
 
-app.all("/theme/:theme/:accent", function(req,res)
-{
-    style = req.params.theme;
-    res.redirect("/");
-});
+    let files = fs.readdirSync(srcFolder);
 
-app.all("/style.css", function(req, res)
-{
-    res.sendFile("../css/" + style + "/" + accent + ".css");
-});
+    for(let i = 0; i < files.length; i++)
+    {
+        const file = files[i];
+        const absPath = path.join(srcFolder, file);
 
-app.listen(80);
+        if(fs.statSync(absPath).isDirectory())
+        {
+            await this.CopyInto(absPath, path.join(destFolder,file.toLowerCase()));
+        }
+        else
+        {
+            fs.copyFileSync(absPath, path.join(destFolder,file.toLowerCase()));
+        }
+    }
+}
