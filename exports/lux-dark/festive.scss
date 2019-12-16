@@ -4,6 +4,7 @@ $green: #2ecc71;
 $primary: darken($green, 18) !default;
 
 @import "../../imports/lux-dark.scss";
+@import "../../imports/snow.scss";
 
 .navbar {
     background-image: url("https://previews.123rf.com/images/zara94/zara941711/zara94171100031/90743298-realistic-fir-branches-on-a-red-background-christmas-banner-with-snowflakes.jpg") !important;
