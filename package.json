@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node-sass -r -x exports -o css",
     "watch": "node-sass --watch -r -x exports -o css",
-    "test": "node test/test.js"
+    "test": "node code/test.js",
+    "pack": "node code/package.js"
   },
   "repository": {
     "type": "git",

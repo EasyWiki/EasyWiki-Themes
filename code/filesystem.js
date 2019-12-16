@@ -1,12 +1,5 @@
-const testServerPath = "../easywiki-test";
-const themes = "config";
-const css = "css";
-
 const fs = require("fs");
 const path = require("path");
-
-CopyInto(themes, path.join(testServerPath, "themes"));
-CopyInto(css, path.join(testServerPath, "public", "css"));
 
 async function CopyInto(srcFolder, destFolder)
 {
@@ -30,3 +23,13 @@ async function CopyInto(srcFolder, destFolder)
         }
     }
 }
+
+function Mkdir(folderPath)
+{
+    if(!fs.existsSync(folderPath))
+    {
+        fs.mkdirSync(folderPath);
+    }
+}
+
+module.exports = {CopyInto:CopyInto, Mkdir:Mkdir};
