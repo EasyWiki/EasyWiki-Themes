@@ -1,0 +1,23 @@
+{
+    "id": "university",
+    "name": "University",
+    "light": true,
+    "defaults":
+    {
+        "accent": "Default",
+        "css":
+        [
+            "syntax/prism-default.css",
+            "body.css",
+            "overrides.css",
+            "components.css"
+        ]
+    },
+    "accents":
+    {
+		"Default":
+        [
+            "university/default.css"
+        ]
+    }
+}

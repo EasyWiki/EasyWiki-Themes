@@ -10,3 +10,5 @@ fs.Mkdir(path.join(testServerPath, "public", "css"));
 
 fs.CopyInto(themes, path.join(testServerPath, "themes"));
 fs.CopyInto(css, path.join(testServerPath, "public", "css"));
+
+console.log("Copied files");
